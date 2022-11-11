@@ -1,0 +1,192 @@
+body{
+  background-color: #2B3F23;
+  margin: 0 auto;
+  padding: 0;
+  font-family:'Montserrat Alternates', sans-serif;
+}
+
+/*Menu*/
+#menu{
+  background-color: hsl(131, 80%, 8%);
+  color: #ffffff;
+}
+
+#menu ul{
+  padding: 0;
+  list-style: none;
+  float: right;
+}
+#menu li{
+  font-size: 20px; 
+  display: inline;
+}
+
+#menu ul li a{
+  color: #ffffff;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background .4s;
+}
+
+#menu li a:hover {
+  background-color: #CAE3AA ; 
+  color: #04250A; 
+}
+
+/*Fundo*/
+#intro{
+  background-image: url(./Imagens/Capa\ Rodovia\ Anhanguera.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+#fundoverde{
+  background-color: #04250A;
+  width: 100%;
+  height: 500px;
+}
+
+/*Caixa*/
+
+#caixa0{
+  background-color: #3E5931;
+  border-radius: 25px;
+  position: absolute;
+  width: 90%;
+  height: 740px;
+  margin-top: -800px;
+  left: 5%;
+  color: #ffffff;
+}
+
+#caixa0 h1{
+  font-size: 70px;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 7px 4px #04250A;
+  text-align: center ;
+  line-height: 18px;
+  color: #ffffff;
+  margin-top: -20px;
+}
+
+#caixa1{
+  display: inline-block;
+}
+
+#caixa1 img{
+  width: 300px;
+  float: right;
+  margin: 40px;
+  border-radius: 10px;
+  box-shadow: 15px 15px, #04250A;
+}
+
+#caixa1 p{
+  float: left;
+  font-size: 25px;
+  margin: 40px 40px 10px 40px;
+  max-width: 600px;
+  text-align: justify;
+}
+
+#caixa2 img{
+  width: 300px;
+  float: left;
+  margin: 40px;
+  border-radius: 10px;
+  box-shadow: 15px 15px, #04250A;
+}
+
+#caixa2 p{
+  float: right;
+  font-size: 25px;
+  margin: 50px;
+  max-width: 700px;
+  text-align: justify;
+}
+
+/*Bandeirante*/
+
+#anhanguera{
+  width: 100%;
+  background-color: #718E4B;
+  color: white;
+  display: inline-block;
+}
+
+#anhanguera h2{
+  font-size: 30px;
+  margin: 30px 30px 5px 30px ;
+}
+
+#anhanguera p{
+  float: left;
+  font-size: 25px;
+  max-width: 800px;
+  margin: 30px 30px 10px 30px;
+  text-align: justify;
+}
+
+#anhanguera img{
+  width: 350px;
+  float: right;
+  margin: 50px 80px 50px 40px;
+}
+
+
+
+/*Rodapé*/
+footer{
+  background-color: hsl(131, 80%, 8%);
+  color: #ffffff;
+  margin-bottom: 0;
+  width: 100%;
+  height: 220px;
+}
+
+#rodape{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#rodape ul{
+  padding: 0;
+  list-style:none;
+  line-height:1.6;
+  font-size: 14px;
+  margin-bottom:0;
+}
+
+#rodape ul a{
+  color: inherit;
+  text-decoration: none;
+}
+
+#rodape h3{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+#rodape img {
+  float: left;
+}
+
+#rlogo{
+  padding: 30px;
+}
+
+#rodape a:hover{
+  color: #718E4B;
+}
+
+#copy{
+  text-align: center;
+}
+
